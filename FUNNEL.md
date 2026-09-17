@@ -18,10 +18,10 @@ Flow: `/` → submit email → `/thank-you` → `/checklist`
 
 ## Deploying to Vercel
 
-This funnel lives in a subdirectory, so Vercel needs to be pointed at it:
+The pages sit at the repo root, so Vercel serves them with no configuration:
 
 1. Import the repo in Vercel.
-2. Set **Root Directory** to `funnel-optin`.
+2. Leave **Root Directory** as the repo root (these pages live at the root).
 3. Framework Preset: **Other**. Leave build and output settings empty.
 4. Deploy.
 
@@ -34,7 +34,7 @@ Out of the box the form runs in **demo mode**: it validates the address and
 redirects to the thank-you page, but stores nothing. A warning is logged to the
 console so this is never silently mistaken for a working list.
 
-To start collecting, open `index.html`, find this line near the bottom, and set it:
+To start collecting, open `index.html` at the repo root, find this line near the bottom, and set it:
 
 ```js
 var ENDPOINT = "";

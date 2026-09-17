@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free: The 27-Point Marketing Checklist</title>
+  <meta name="description" content="The 27-point checklist marketing teams use to audit a campaign before it goes live. Free download, no signup fee.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Free: The 27-Point Marketing Checklist">
+  <meta property="og:description" content="Audit any campaign before it goes live. 27 checks, one page.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"></noscript>
+<style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    :root {
+      --bg: #0F172A;
+      --bg-card: #1E293B;
+      --text: #F8FAFC;
+      --text-secondary: #CBD5E1;
+      --text-muted: #94A3B8;
+      --accent: #3B82F6;
+      --accent-hover: #2563EB;
+      --accent-glow: rgba(59, 130, 246, 0.3);
+      --border: rgba(255, 255, 255, 0.1);
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 540px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 16px;
+      background: rgba(59, 130, 246, 0.1);
+      border: 1px solid rgba(59, 130, 246, 0.3);
+      border-radius: 100px;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 24px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+
+    @media (min-width: 768px) {
+      h1 { font-size: 2.5rem; }
+    }
+
+    .subtitle {
+      font-size: 1.125rem;
+      color: var(--text-secondary);
+      margin-bottom: 32px;
+    }
+
+    .lead-magnet-preview {
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto 32px;
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+
+    .benefits {
+      text-align: left;
+      margin-bottom: 32px;
+    }
+
+    .benefit {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      padding: 8px 0;
+    }
+
+    .benefit-icon {
+      flex-shrink: 0;
+      width: 24px;
+      height: 24px;
+      background: rgba(34, 197, 94, 0.15);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      margin-top: 2px;
+    }
+
+    .benefit-text {
+      font-size: 1rem;
+      color: var(--text-secondary);
+    }
+
+    .optin-form {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 24px;
+      margin-bottom: 24px;
+    }
+
+    .form-group {
+      margin-bottom: 12px;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 14px 16px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-size: 1rem;
+      font-family: inherit;
+      min-height: 48px;
+      transition: border-color 0.2s;
+    }
+
+    .form-input:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .form-input::placeholder { color: var(--text-muted); }
+
+    .cta-primary {
+      display: block;
+      width: 100%;
+      padding: 16px 32px;
+      background: var(--accent);
+      color: white;
+      font-size: 1.125rem;
+      font-weight: 700;
+      font-family: inherit;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+      min-height: 52px;
+      box-shadow: 0 4px 14px var(--accent-glow);
+    }
+
+    .cta-primary:hover {
+      background: var(--accent-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px var(--accent-glow);
+    }
+
+    .privacy {
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+    }
+
+    .privacy a { color: var(--text-muted); text-decoration: underline; }
+
+    .social-proof {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 24px;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+
+    .avatars {
+      display: flex;
+    }
+
+    .avatars span {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--accent);
+      border: 2px solid var(--bg);
+      margin-left: -8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.625rem;
+      font-weight: 700;
+    }
+
+    .avatars span:first-child { margin-left: 0; }
+  </style>
+  <style>
+    h1 { font-size: clamp(1.75rem, 5vw, 2.5rem); font-weight: 800; line-height: 1.15; margin-bottom: 16px; letter-spacing: -0.02em; }
+    .form-status { margin-top: 12px; font-size: 0.875rem; min-height: 20px; }
+    .form-status[data-state="error"] { color: #FCA5A5; }
+    .form-status[data-state="loading"] { color: var(--text-muted); }
+    .cta-primary[disabled] { opacity: 0.6; cursor: not-allowed; transform: none; }
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; animation: none !important; }
+      .cta-primary:hover { transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="badge">Free Download</div>
+
+    <h1>The 27-Point Checklist That Catches Campaign Mistakes Before Launch</h1>
+
+    <p class="subtitle">
+      The same pre-flight audit used to catch broken tracking, dead links, and
+      mobile bugs &mdash; before they cost you a single click of paid traffic.
+    </p>
+
+    <div class="benefits">
+      <div class="benefit">
+        <div class="benefit-icon">&check;</div>
+        <span class="benefit-text">The 6 tracking checks that catch 90% of attribution bugs</span>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">&check;</div>
+        <span class="benefit-text">A 4-point mobile pass &mdash; where most campaigns quietly leak conversions</span>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">&check;</div>
+        <span class="benefit-text">Copy and offer checks that surface weak CTAs before spend starts</span>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">&check;</div>
+        <span class="benefit-text">A page-speed section with the exact thresholds that matter</span>
+      </div>
+    </div>
+
+    <form class="optin-form" id="optin-form" novalidate>
+      <div class="form-group">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="form-input"
+          placeholder="Enter your best email"
+          autocomplete="email"
+          required
+          aria-label="Email address"
+          aria-describedby="form-status"
+        >
+      </div>
+      <button type="submit" class="cta-primary" id="submit-btn">
+        Send Me the Free Checklist &rarr;
+      </button>
+      <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+
+    <p class="privacy">
+      &#128274; We respect your privacy. Unsubscribe anytime.
+      <a href="/privacy">Privacy Policy</a>
+    </p>
+
+    <div class="social-proof">
+      <div class="avatars">
+        <span>JD</span>
+        <span>SK</span>
+        <span>AR</span>
+        <span>+</span>
+      </div>
+      <span>Join 2,400+ subscribers</span>
+    </div>
+  </main>
+
+  <script>
+    // ---------------------------------------------------------------
+    // SET THIS to start collecting emails for real.
+    // Formspree:  https://formspree.io/f/xxxxxxxx
+    // ConvertKit: https://app.convertkit.com/forms/xxxxxxx/subscriptions
+    // Leave as "" to run in demo mode (no email is stored).
+    // ---------------------------------------------------------------
+    var ENDPOINT = "";
+
+    var form = document.getElementById("optin-form");
+    var input = document.getElementById("email");
+    var btn = document.getElementById("submit-btn");
+    var status = document.getElementById("form-status");
+
+    function setStatus(msg, state) {
+      status.textContent = msg;
+      if (state) { status.setAttribute("data-state", state); }
+      else { status.removeAttribute("data-state"); }
+    }
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var email = input.value.trim();
+
+      if (!email || email.indexOf("@") < 1 || email.lastIndexOf(".") < email.indexOf("@")) {
+        setStatus("Please enter a valid email address.", "error");
+        input.focus();
+        return;
+      }
+
+      btn.disabled = true;
+      setStatus("Sending\u2026", "loading");
+
+      if (!ENDPOINT) {
+        console.warn("[optin] Demo mode: ENDPOINT is empty, no email was stored.");
+        try { sessionStorage.setItem("optin_email", email); } catch (err) {}
+        window.location.href = "/thank-you";
+        return;
+      }
+
+      fetch(ENDPOINT, {
+        method: "POST",
+        headers: { "Accept": "application/json", "Content-Type": "application/json" },
+        body: JSON.stringify({ email: email })
+      })
+        .then(function (res) {
+          if (!res.ok) { throw new Error("Request failed: " + res.status); }
+          try { sessionStorage.setItem("optin_email", email); } catch (err) {}
+          window.location.href = "/thank-you";
+        })
+        .catch(function (err) {
+          console.error("[optin]", err);
+          btn.disabled = false;
+          setStatus("Something went wrong. Please try again.", "error");
+        });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>You're In! Your Checklist Is Ready</title>
+  <meta name="description" content="Your 27-Point Marketing Checklist is ready to download.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"></noscript>
+<style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg: #0F172A;
+            --bg-card: #1E293B;
+            --text: #F8FAFC;
+            --text-secondary: #CBD5E1;
+            --text-muted: #94A3B8;
+            --accent: #3B82F6;
+            --accent-hover: #2563EB;
+            --accent-glow: rgba(59, 130, 246, 0.3);
+            --success: #22C55E;
+            --border: rgba(255, 255, 255, 0.1);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .success-icon {
+            width: 64px;
+            height: 64px;
+            background: rgba(34, 197, 94, 0.15);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin: 0 auto 24px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+
+        .subtitle {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+        }
+
+        .steps {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px 24px;
+            text-align: left;
+            margin-bottom: 40px;
+        }
+
+        .steps h2 {
+            font-size: 1.125rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .step {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+            padding: 12px 0;
+        }
+
+        .step+.step {
+            border-top: 1px solid var(--border);
+        }
+
+        .step-number {
+            flex-shrink: 0;
+            width: 32px;
+            height: 32px;
+            background: var(--accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.875rem;
+            font-weight: 700;
+            margin-top: 2px;
+        }
+
+        .step-text strong {
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .step-text span {
+            color: var(--text-secondary);
+            font-size: 0.9375rem;
+        }
+
+        .next-step {
+            margin-bottom: 40px;
+        }
+
+        .next-step h2 {
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        .next-step p {
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        .cta-secondary {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 28px;
+            background: transparent;
+            color: var(--accent);
+            border: 2px solid var(--accent);
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.2s;
+            min-height: 48px;
+        }
+
+        .cta-secondary:hover {
+            background: var(--accent);
+            color: white;
+            text-decoration: none;
+        }
+
+        .share {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+        }
+
+        .share p {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            margin-bottom: 12px;
+        }
+
+        .share-links {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        .share-links a {
+            padding: 8px 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .share-links a:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+    </style>
+  <style>
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="success-icon">&#9989;</div>
+
+    <h1>You're In!</h1>
+
+    <p class="subtitle">
+      Your <strong>27-Point Marketing Checklist</strong> is ready &mdash; grab it below.
+    </p>
+
+    <div class="steps">
+      <h2>Here's What to Do Next</h2>
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-text">
+          <strong>Open your checklist</strong>
+          <span><a href="/checklist" style="color: var(--accent);">Read it here</a> &mdash; or print it to PDF for your team.</span>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-text">
+          <strong>Run it on your next campaign</strong>
+          <span>Work top to bottom before you spend a single dollar on traffic.</span>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-text">
+          <strong>Fix the tracking section first</strong>
+          <span>It's the shortest section and catches the most expensive mistakes.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="next-step">
+      <h2>While You Wait&hellip;</h2>
+      <p>Run the checklist against a campaign that's already live. Most teams find two or three issues on the first pass.</p>
+      <a href="/checklist" class="cta-secondary">
+        Open the Checklist &rarr;
+      </a>
+    </div>
+
+    <div class="share">
+      <p>Know someone who'd benefit from this? Share it with them:</p>
+      <div class="share-links" id="share-links">
+        <a href="#" data-share="x">Twitter / X</a>
+        <a href="#" data-share="facebook">Facebook</a>
+        <a href="#" data-share="linkedin">LinkedIn</a>
+        <a href="#" data-share="email">Email</a>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      var origin = window.location.origin;
+      var text = "The 27-Point Marketing Checklist \u2014 catches campaign mistakes before launch.";
+      var urls = {
+        x: "https://twitter.com/intent/tweet?text=" + encodeURIComponent(text) + "&url=" + encodeURIComponent(origin),
+        facebook: "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(origin),
+        linkedin: "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(origin),
+        email: "mailto:?subject=" + encodeURIComponent("The 27-Point Marketing Checklist") + "&body=" + encodeURIComponent(text + " " + origin)
+      };
+      var links = document.querySelectorAll("#share-links a[data-share]");
+      for (var i = 0; i < links.length; i++) {
+        var kind = links[i].getAttribute("data-share");
+        links[i].setAttribute("href", urls[kind]);
+        if (kind !== "email") {
+          links[i].setAttribute("target", "_blank");
+          links[i].setAttribute("rel", "noopener noreferrer");
+        }
+      }
+    })();
+  </script>
+</body>
+</html>
